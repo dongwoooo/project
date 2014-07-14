@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
+body {
+	margin: 0;
+	background-color: rgb(40,40,40);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+    color: rgb(0,0,0);
+}
+
+.banner {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.menubar {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 70px;
+	background-color: rgb(183,183,183);
+	text-align: center;
+}
+
+div.menubar ul {
+	padding: 0;
+}
+
+div.menubar ul li {
+	display: inline-block;
+	margin: 18px 60px 0;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 23px;
+	font-weight: 600;
+	color: rgb(70,70,70);
+	text-align: center;
+}
+
+.menu a {
+	color: rgb(70,70,70);
+}
+
+div.menubar ul li.highlight_center {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	letter-spacing: -2px;
+	margin-left: 38px;
+	margin-right: 37px;
+	/*box-shadow: rgba(0,0,0,0.5) 6px 6px;*/
+}
+
+div.menubar ul li.highlight_left {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	letter-spacing: -2px;
+	margin-left: 40px;
+	margin-right: 56px;
+	/*box-shadow: rgba(0,0,0,0.5) 6px 6px;*/
+}
+
+div.menubar ul li.highlight_right {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	letter-spacing: -2px;
+	margin-left: 58px;
+	margin-right: 40px;
+	/*box-shadow: rgba(0,0,0,0.5) 6px 6px;*/
+}
+
+pre {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	overflow-x: auto;
+}
+
+div#page {
+	width: 900px;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: left;
+	border-color: #ddd;
+	border-style: none solid solid;
+	border-width: medium 1px 1px;
+}
+div#container {
+	padding: 20px;
+}
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}
+div#footer {
+	clear: both;
+	color: #777;
+	margin: 0 auto;
+	padding: 20px 0 40px;
+	text-align: center;
+}
+
+a{
+	color: rgb(200,200,200);
+}
+
+h2 {
+	color: #ccc;
+}
+
+div#page {
+	background-color: rgb(40,40,40);
+	border: none;
+}
+
+div#footer {
+	color: #888;
+}
+
+div.navigation a.prev {
+	background-image: url(prevPageArrowWhite.gif);
+}
+
+div.navigation a.next {
+	background-image: url(nextPageArrowWhite.gif);
+}
+
+div.loader {
+	background-image: url(loaderWhite.gif);
+}
+
+div.slideshow img {
+	border: none;
+}
+
+ul.thumbs li.selected a.thumb {
+	background: #fff;
+}
+
+div.pagination a:hover {
+	background-color: #111;
+}
+
+div.pagination span.current {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+div#page {
+	text-align: center;
+}
+
+div.navigation-container {
+	margin: 45px auto 30px auto;
+}
+
+div.slideshow-container{
+	position: relative;
+	top: 0;
+	margin: 0 auto 0 auto;
+	width: 800px;
+	height: 510px;
+}
+
+div.caption-container {
+	margin: 60px auto 0 auto;
+	height: 150px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.slideshow span.image-wrapper {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+div.caption {
+	margin-top: 15px;
+}
+
+div.image-title {
+	font-family: "Nanum Gothic","Helvetica Neue","Roboto", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+div.image-desc {
+	font-family: "Nanum Gothic","Helvetica Neue","Roboto", Helvetica, Arial, sans-serif;
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+
+div.download {
+	margin-top: 8px;
+}
+
+div.photo-index {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: -40px;
+}
+
+div.controls {
+	position: relative;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+#last {
+	position: relative;
+	top: 10px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	text-align: center;
+}
